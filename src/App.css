@@ -1,8 +1,88 @@
-.App {
+.app {
   text-align: center;
+  background-color: rgb(27, 4, 49);
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.App-logo {
+.register{
+  justify-content: centre;
+  align-items: center;
+  height: 60vh;
+  border:2px solid black;
+  background-color: rgb(51, 167, 167);
+  display: flex;
+  flex-direction: centre;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +115,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
