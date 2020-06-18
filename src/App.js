@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 import Register from './Register'
+import { useState } from 'react';
 
 function App() {
  
@@ -10,7 +11,9 @@ function App() {
   return (
     <div className='app'>
       <h1>Hello there</h1>
-      <Register/> 
+      <Register name="ashley@example.com"/> 
+      <Register password="Stringpassword12"/> 
+      <Register confirm password="Stringpassword12"/> 
     </div>
    
   );
